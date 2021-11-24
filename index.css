@@ -1,0 +1,40 @@
+body {
+     background-color:black;
+}
+
+.container-fluid{
+    background-image: url('images/pic13.jpg');
+    background-size:cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height:120vh;
+    }
+
+ #gamearea
+  {
+    display:flex;
+    position:relative;
+    margin:0;
+    top:20vh;
+    right:25vh;
+    bottom:10vh;
+    left: 0vh;
+    height:450px;
+    width:400px;
+   /* background-color:black;*/
+    border-radius: 10px;
+    color:yellowgreen;
+    padding:20px;
+  }
+
+  input{
+    color:orange;
+    background-color: black;
+    border: 0px;
+  }
+
+  input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    /*box-shadow: 0 0 10px #719ECE;*/
+  }
